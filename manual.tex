@@ -1,0 +1,488 @@
+\documentclass[14pt, a4paper]{extarticle} % Aceita 14pt, 17pt, etc.
+
+% --- PACOTES (As bibliotecas que você importa) ---
+\usepackage[utf8]{inputenc} % Acentuação
+\usepackage[portuguese]{babel} % Idioma PT-BR
+\usepackage{graphicx} % Para inserir imagens
+\usepackage{hyperref} %  Cria os links clicáveis
+\usepackage{xcolor} % Para cores
+
+% Configuração dos Links (Pra ficar bonitão e não aquela caixa feia)
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+% --- INÍCIO DO DOCUMENTO ---
+\begin{document}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{unicesumar-logo-3.png}
+    \label{fig:placeholder}
+\end{figure}
+
+\title{\textbf{Manual de Ambientação - Unicesumar}}
+\author{Elaborado por: Caio Marcelo — 25611981-5 \\ (Tutor Pedagógico)}
+\date{\today}
+\maketitle
+
+\tableofcontents % Sumário Automático (Clicável!)
+\newpage
+
+% --- SEÇÃO 1: MAPEANDO DÚVIDAS ---
+\section{Dúvidas Frequentes} \label{sec:inicio}
+
+Olá, aluno! Seja bem-vindo. Este é um manual completo para você poder ser familiarizar com o sistema da Unicesumar. Clique na dúvida abaixo para ver a solução visual:
+
+\begin{itemize}
+    \item \hyperref[sec:portal]{1 — Como acessar o portal?}
+    \item \hyperref[sec:disciplinas]{2 — Como posso acessar as disciplinas?}
+    \item \hyperref[sec:aulas]{3 — Aulas ao vivo e aulas gravadas}
+    \item \hyperref[sec:atividades]{4 — Atividades}
+    \item \hyperref[sec:boletim]{5 — Boletim e Notas}
+    \item \hyperref[sec:avdigitais]{6 — Avaliações Digitais}
+    \item \hyperref[sec:sub]{7 — Provas Substitutivas}
+    \item \hyperref[sec:financeiro]{8 — Financeiro}
+    \item \hyperref[sec:livros]{9 — Livros Físicos}
+    \item \hyperref[sec:extensao]{10 — Atividades Complementatares e Extensão}
+\end{itemize}
+
+\vspace{2cm} % Espaço em branco
+
+% --- 1. PORTAL ---
+\subsection{Acesso ao Portal (Studeo)} \label{sec:portal}
+
+Seja bem-vindo ao \textbf{Studeo}! Este é o seu ambiente virtual, onde toda a sua vida acadêmica acontece. Para entrar, você precisará de dois dados principais:
+
+\begin{itemize}
+    \item \textbf{R.A. (Registro Acadêmico):} É o seu número de matrícula. Ele é gerado automaticamente pelo sistema assim que sua matrícula é efetivada. Pense nele como seu RG dentro da faculdade.
+    
+    \item \textbf{Senha Inicial:} No seu primeiro acesso, a senha padrão é a sua \textbf{data de nascimento ao contrário} (apenas os números).
+\end{itemize}
+
+\vspace{0.5cm} % Um espacinho para separar a dica
+
+\vspace{0.5cm}
+
+\textbf{[IMPORTANTE]:} Ao realizar o primeiro acesso, o sistema pedirá para você \textbf{completar seus dados cadastrais} (como RG e CPF) e realizar a \textbf{assinatura digital} do seu Contrato de Prestação de Serviços.
+
+ \begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.1\textwidth]{Página do Studeo.png} % 1.1 é 110% da largura
+    }
+    \caption{Tela de Login do Aluno}
+\end{figure}
+
+\vspace{1cm}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 2. DISCIPLINAS ---
+\subsection{Acessando Disciplinas} \label{sec:disciplinas}
+
+Ao entrar no Studeo, não precisa se preocupar: \textbf{todas as suas disciplinas já aparecem automaticamente} na tela inicial.
+
+Para não se perder, você deve identificar qual é a disciplina do momento olhando para o código do módulo (ex: \textbf{2026/51}). Entenda como funciona:
+
+\begin{itemize}
+    \item \textbf{2026:} Indica o ano letivo.
+    \item \textbf{51:} Indica o módulo (ou trimestre) vigente. Por exemplo, o módulo 51 geralmente inicia o calendário letivo em fevereiro.
+\end{itemize}
+
+\textbf{Dica:} Foque sempre nas disciplinas que estão marcadas como "Em andamento" para não perder nenhuma atividade!
+
+\vspace{0.5cm}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Disciplinas 2.png} % 1.1 é 110% da largura
+    }
+    \caption{Seção de Disciplinas}
+\end{figure}
+
+\end{itemize}
+
+\vspace{0.5cm}
+
+Repare que na \textbf{Figura 2} (acima), as disciplinas são todas do ano de \textbf{2025} e do trimestre \textbf{54}.
+\\
+Isso significa que são matérias que se iniciaram em \textbf{outubro} e finalizaram em \textbf{dezembro} do mesmo ano.
+
+\newpage
+
+\vspace{0.5cm}
+
+\subsubsection*{Entendendo o Calendário Acadêmico}
+Para você se planejar, confira a distribuição padrão dos módulos (trimestres) ao longo do ano:
+
+\begin{itemize}
+    \item \textbf{Módulo 51:} Fevereiro, Março e Abril.
+    \item \textbf{Módulo 52:} Maio, Junho e Julho.
+    \item \textbf{Módulo 53:} Agosto, Setembro e Outubro.
+    \item \textbf{Módulo 54:} Outubro, Novembro e Dezembro.
+\end{itemize}
+
+\textbf{[ATENÇÃO À TRANSIÇÃO]:} 
+Perceba que alguns meses podem dividir trimestres (como outubro na lista acima).
+\\
+Isso acontece porque o calendário é dinâmico: enquanto você está finalizando as provas do \textbf{Módulo 53} no início de outubro, o \textbf{Módulo 54} já começa a liberar as novas aulas na segunda quinzena do mesmo mês.
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 3. AULAS ---
+\subsection{Aulas Ao Vivo e Gravadas} \label{sec:aulas}
+
+No seu curso, você terá dois momentos principais de aprendizado. É fundamental saber a diferença entre eles para se organizar:
+
+\begin{itemize}
+    \item \textbf{Aulas Ao Vivo:} Elas abordam \textbf{temas gerais} da sua área de conhecimento (Seja Biológicas, Exatas ou Humanas). O objetivo aqui é conectar o conteúdo com o mercado de trabalho e atualidades.
+
+    \begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Aulas ao Vivo.png} % 1.1 é 110% da largura
+    }
+    \caption{Aulas Ao Vivo e Palestras}
+\end{figure}
+
+    \item \textbf{Aulas Gravadas (Conceituais):} Estas seguem a ordem cronológica do seu livro didático. É um espelho do material: a Aula 1 corresponde ao Capítulo 1 do livro, a Aula 2 ao Capítulo 2, e assim por diante.
+
+\end{itemize}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Aulas Gravadas.png} 
+    }
+    \caption{Aulas Gravadas}
+\end{figure}
+\vspace{0.5cm}
+
+\textbf{[DICA]:} Quer acompanhar a aula lendo o conteúdo? Os \textbf{Livros Digitais} (PDF) ficam disponíveis para download dentro da disciplina, no botão "Material de Estudo" no final da página.
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 4. ATIVIDADES ---
+\subsection{Realizando Atividades} \label{sec:atividades}
+
+Durante toda a sua formação, você seguirá um padrão de avaliação composto por dois tipos principais de entregas:
+
+\begin{itemize}
+    \item \textbf{Atividades de Estudo (1, 2 e 3):} São 3 atividades contendo 10 questões de múltipla escolha cada. Elas testam seu conhecimento teórico sobre o livro e as aulas.
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Atividades 123.png} % 1.1 é 110% da largura
+    }
+    \caption{Atividades Avaliativas Múltipla Escolha}
+\end{figure}
+    
+    \item \textbf{Atividade MAPA:} É a sua atividade prática final. Diferente das outras, ela geralmente exige que você baixe um formulário, responda e envie o arquivo.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\subsubsection*{Onde baixar o modelo do MAPA?}
+Para realizar o MAPA, você precisa baixar o formulário padrão (o layout pronto). Siga este caminho:
+
+\textbf{Disciplinas $\rightarrow$ Clicar na Matéria $\rightarrow$ Material da Disciplina}
+
+Nesta pasta de "Arquivos", você encontrará:
+\begin{itemize}
+    \item O formulário do MAPA (obrigatório).
+    \item A Ementa da disciplina e Bibliografia.
+    \item Os Slides das aulas gravadas.
+\end{itemize}
+
+\vspace{0.3cm}
+\textbf{[DICA DE OURO]:} Está com dúvidas sobre como fazer o MAPA? Acesse a \textbf{"Sala do Café"} dentro da disciplina. Lá sempre tem um vídeo explicativo gravado pelo professor especificamente sobre essa tarefa!
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{MAPA2.png} % 1.1 é 110% da largura
+    }
+    \caption{Caminho para encontrar o layout do MAPA}
+\end{figure}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 5. BOLETIM ---
+\subsection{Boletim e Notas} \label{sec:boletim}
+
+A liberação das suas notas segue dois prazos diferentes, dependendo do tipo de correção:
+
+\begin{itemize}
+    \item \textbf{Atividades de Múltipla Escolha:} A nota aparece no sistema pouco tempo após o encerramento do prazo de envio.
+    \item \textbf{Atividade MAPA:} Como a correção é humana (feita por um professor preceptor), a nota é lançada apenas após a correção individual da sua atividade.
+\end{itemize}
+
+\subsubsection*{Como a nota é calculada?}
+A distribuição dos pontos segue o seguinte padrão (podendo variar conforme a disciplina):
+
+\begin{itemize}
+    \item \textbf{Atividades de Estudo (Múltipla Escolha):} 0,50 pontos.
+    \item \textbf{MAPA Conceitual:} 3,50 pontos.
+    \item \textbf{Provas Presenciais (Polo):} Entre 2,90 e 3,50 pontos (dependendo da distribuição).
+    \item \textbf{Prova (EAD):} Até 4,0 pontos.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{[ATENÇÃO ÀS PROVAS]:} 
+As provas são \textbf{sempre presenciais} e devem ser realizadas no seu polo de matrícula. 
+\\
+\textit{*Caso precise realizar a prova em outra cidade (em trânsito), é necessário combinar previamente com o polo de destino.}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Boletim.png} % 1.1 é 110% da largura
+    }
+    \caption{Caminho para encontrar o Boletim}
+\end{figure}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 6. AVALIAÇÕES DIGITAIS ---
+\subsection{Avaliações Digitais (Agendamento)} \label{sec:avdigitais}
+
+As Avaliações Digitais são as provas oficiais das disciplinas curriculares. Elas exigem atenção redobrada aos prazos e regras.
+
+\subsubsection*{1. Como e Onde Agendar?}
+O agendamento é obrigatório e pode ser feito de duas formas:
+\begin{itemize}
+    \item \textbf{Pelo Studeo:} Acesse o Menu Lateral $\rightarrow$ Agendamento de Prova Digital.
+    \item \textbf{Com o Tutor:} Você também pode solicitar o agendamento diretamente com o seu Tutor Pedagógico no polo.
+\end{itemize}
+
+\subsubsection*{2. Cronograma e Oportunidades}
+O ciclo de avaliações é dividido em 3 momentos. Fique atento para não perder o "timing":
+
+\begin{itemize}
+    \item \textbf{1ª Semana (1ª Oportunidade):} É o período regular para realizar a prova no seu polo de origem.
+    \item \textbf{2ª Semana (2ª Oportunidade):} É a sua segunda chance (repescagem) para realizar a avaliação dentro do prazo regular.
+    \item \textbf{Perdeu os 15 dias?} Caso você não realize a prova nessas duas semanas, você será automaticamente encaminhado para a \textbf{Avaliação Substitutiva} (que gera custo e ocorre em data posterior).
+\end{itemize}
+
+\subsubsection*{3. Tempo de Prova e Sistema}
+\begin{itemize}
+    \item \textbf{Duração:} A prova tem duração exata de \textbf{50 minutos}. 
+    \\ \textit{(Exemplo: Se agendou para 14:00, o sistema encerrará às 14:50).}
+    \item \textbf{Tolerância:} Existe uma extensão máxima de \textbf{15 minutos} caso ocorram imprevistos, mas organize-se para não precisar dela!
+    \item \textbf{Salvamento Automático:} O seu progresso fica salvo no sistema do Studeo conforme você avança.
+\end{itemize}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ 
+        \includegraphics[width=0.9\textwidth]{avaliacao_digital.png} 
+    }
+    \caption{Passo a passo do Agendamento no Studeo}
+\end{figure}
+
+\vspace{1cm}
+\begin{flushright}
+    \hyperref[sec:inicio]{\textcolor{blue}{\textbf{\small Voltar ao Menu $\uparrow$}}}
+\end{flushright}
+
+\newpage
+
+% --- 6. AVALIAÇÕES SUBSTITUTIVAS ---
+\subsection{Provas Substitutivas (Sub)} \label{sec:sub}
+
+A Prova Substitutiva é a sua "cartada final". Ela acontece quando o aluno não atinge a média necessária para aprovação ou quando deseja melhorar sua nota final.
+
+\subsubsection*{Quando posso solicitar?}
+\begin{itemize}
+    \item \textbf{Recuperação de Nota:} Caso você não tenha atingido os 60\% de aproveitamento (Média 6.0) nas tentativas anteriores.
+    \item \textbf{Aumento de Nota:} Se você já passou, mas quer tentar uma nota maior para melhorar seu histórico.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\textbf{[CUSTO DA PROVA]:}
+Diferente das provas regulares, a Substitutiva possui uma taxa extra:
+\begin{itemize}
+    \item O valor é de \textbf{R\$ 35,00 por disciplina}.
+    \item Exemplo: Se você ficou de recuperação em 2 matérias, pagará 2 taxas (Total: R\$ 70,00).
+    \item A cobrança é lançada no boleto do trimestre correspondente à solicitação.
+\end{itemize}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Provas Substitutivas.png} % 1.1 é 110% da largura
+    }
+    \caption{Como fazer a marcação das provas}
+\end{figure}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 7. FINANCEIRO ---
+\subsection{Financeiro e Boletos} \label{sec:financeiro}
+
+A parte financeira exige atenção redobrada para que você não perca seus benefícios. Entenda como funciona o ciclo de pagamentos:
+
+\begin{itemize}
+    \item \textbf{Data de Vencimento:} Seus boletos vencem, invariavelmente, no dia \textbf{10 de cada mês}.
+    \item \textbf{Benefício da Pontualidade:} Pagando até o dia 10, você garante os descontos acordados na sua matrícula.
+\end{itemize}
+
+\subsubsection*{O boleto venceu. E agora?}
+Se passar do dia 10, o valor do boleto muda automaticamente (perda de descontos + juros). O aluno costuma questionar essa mudança de valor.
+
+\textbf{Solução (O "Arraste"):}
+Não tente pagar o boleto antigo! Para regularizar, é necessário atualizar a data do boleto (fazer o "arraste") com o Tutor Pedagógico responsável pelo polo em que você está matriculado. Isso gera um novo documento com a data atualizada e os valores corrigidos para aquele dia.
+
+\vspace{0.5cm}
+\textbf{[ALERTA]:} Sempre atualize o boleto no portal antes de pagar caso tenha perdido o prazo. Isso evita erros bancários e garante que a baixa ocorra corretamente no sistema.
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Financeiro.png} % 1.1 é 110% da largura
+    }
+    \caption{Como encontrar a seção do Financeiro}
+\end{figure}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 8. LIVROS ---
+\subsection{Livros Físicos} \label{sec:livros}
+
+O material didático físico é um recurso valioso. Para recebê-lo, o aluno precisa manifestar interesse ativamente dentro da plataforma.
+
+\subsubsection*{Como solicitar?}
+Todo o processo é feito pelo Studeo. Siga o caminho:
+\begin{itemize}
+    \item Acesse a aba lateral \textbf{"Meu Papel no Mundo"}.
+    \item Faça a solicitação do material vigente.
+    \item \textbf{Acompanhe o rastreio:} É responsabilidade do aluno monitorar o status da entrega até a chegada no polo.
+\end{itemize}
+
+\textbf{Entenda a Logística:}
+Os livros são enviados da Sede (Maringá-PR), passam pela gráfica e seguem via transportadora até o seu polo.
+
+\vspace{0.5cm}
+
+\textbf{[ALINHAMENTO DE EXPECTATIVAS]:}
+É importante saber que o envio físico depende de estoque e logística de impressão. \textbf{Nem sempre todos os livros chegam} fisicamente para todos os módulos.
+\\
+\textit{*Lembre-se: O Livro Digital (PDF) está sempre garantido e disponível na aba "Material de Estudo" da disciplina, localizado no final da página.}
+
+\begin{figure}[H]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Meu papel no mundo.png} % 1.1 é 110% da largura
+    }
+    \caption{Como encontrar a seção Meu Papel no Mundo}
+\end{figure}
+
+\begin{figure}[h]
+    \makebox[\textwidth][c]{ % Truque para centralizar ignorando margens
+        \includegraphics[width=1.2\textwidth]{Acompanhamento de Livros.png} % 1.1 é 110% da largura
+    }
+    \caption{Como acompahar a entrega do Livros Físicos}
+\end{figure}
+
+\begin{flushright}
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+% --- 9. EXTENSÃO ---
+\subsection{Atividades Complementares e Extensão} \label{sec:extensao}
+
+Aqui está o "Calcanhar de Aquiles" de muitos formandos! 
+
+\textbf{[ALERTA MÁXIMO]:} Se você concluir todas as disciplinas do curso, mas deixar essas horas pendentes, \textbf{você não cola grau}. Terá que permanecer matriculado apenas para cumprir essas exigências. Não deixe para a última hora!
+
+Entenda a diferença entre elas:
+
+\begin{itemize}
+    \item \textbf{Atividades Complementares:} Foco \textbf{Acadêmico/Cultural}.
+    São cursos livres, workshops, palestras, atividades culturais e certificações extras. Tudo que agrega conhecimento técnico à sua formação.
+    
+    \item \textbf{Projetos de Extensão:} Foco \textbf{Social/Filantrópico}.
+    São ações comunitárias organizadas pela Unicesumar. Você escolhe o projeto dentro da plataforma.
+\end{itemize}
+
+\subsubsection*{Como realizar os Projetos de Extensão?}
+Você tem duas formas de participar. Vamos usar como exemplo a campanha \textit{"Natal Solidário"}:
+
+\vspace{1cm}
+
+\subsubsection*{A Documentação Obrigatória (O Template)}
+
+Para validar sua atividade, não basta apenas tirar as fotos. Você precisa organizá-las dentro do **documento oficial** da instituição.
+
+Veja na imagem abaixo onde encontrar esse arquivo e como preenchê-lo:
+
+
+\textbf{Passo a Passo da Documentação:}
+
+\begin{itemize}
+    \item \textbf{1. Baixar:} No final da página da atividade, em "Documentos Complementares", clique em \textbf{Baixar} no arquivo "Template padrão atividade extensionista".
+    
+    \item \textbf{2. Preencher:} Abra o Word, preencha seu nome e RA no cabeçalho.
+    
+    \item \textbf{3. Inserir Fotos:} O template tem espaços específicos (quadrados cinzas) para você colocar as fotos. 
+    \textit{*Limite máximo de 8 imagens por arquivo.}
+    
+    \item \textbf{4. Salvar em PDF:} Após finalizar, você \textbf{deve} salvar o arquivo como PDF. O sistema não aceita o envio em Word (.docx).
+\end{itemize}
+
+\vspace{0.5cm}
+\textbf{[IMPORTANTE]:} Se a atividade exigir "Ficha de Frequência" (comum em ações presenciais recorrentes), o download fica no mesmo lugar, logo abaixo do template.
+
+\begin{figure}[H]
+    \makebox[\textwidth][c]{ % O truque para ignorar as margens
+        % Lembre-se: Se der erro, renomeie o arquivo para tirar os espaços!
+        \includegraphics[width=1.2\textwidth]{Documentos Complementares 2.png} 
+    }
+    \caption{Área de Download e Modelo do Template}
+\end{figure}
+
+\begin{flushright} 
+    \hyperref[sec:inicio]{\textbf{\small Voltar ao Menu $\uparrow$}}
+\end{flushright}
+
+\newpage
+
+\vspace{2cm}
+
+\begin{center}
+    \textbf{Bons estudos e conte com a gente nessa jornada!}
+\end{center}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Gemini_Generated_Image_f2j62ff2j62ff2j6.png} 
+\end{figure}
+
+\end{document}
